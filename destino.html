@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ 
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    
+    <title>TravelAirlines</title>
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><i class="fas fa-paper-plane">TravelAirlines</i></a>
+        
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/destino.html">Destino</a>
+            <a href="/promocao.html">Promoções</a>
+            <a href="/contato.html">Contato</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-user"></i>
+        </div>
+
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Destino</h3>
+                <p>Volte a sonhar com a sua próxima viagem. Encontre reservas flexíveis e os melhores preços para voos e pacotes.</p>
+            </div>
+            <div class="image">
+                <img src="imagens/Rio de Janeiro-amico.svg" alt="">
+            </div>
+        </section>
+        <section class="form-container">
+            <form action="">
+                <div class="inputbox"> 
+                    <span>Saindo de:</span>
+                    <input type="text" placeholder="Digite uma cidade" required>
+                </div>
+                </div>
+                <div class="inputbox"> 
+                    <span>Indo para:</span>
+                    <input type="text" placeholder="Digite uma cidade" required>
+                </div>
+                <div class="inputbox"> 
+                    <span>Data de ida:</span>
+                    <input type="date" placeholder="Digite uma cidade" required>
+                </div>
+                <input type="submit" value="Compra agora" class="btn">
+            </form>
+        </section>
+                
+
+    </main>
+    <footer>
+        <section class="rodape">
+            <div class="container">
+                <div class="box">
+                    <h4>Links</h4>
+                    <a href="#"><i class="fas fa-map-market-alt"></i>Lorem</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i>Ipsum</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"> </i>Brasil</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i>China</a>
+                </div>
+
+                <div class="box">
+                    <h4>Páginas</h4>
+                    <a href="/index.html"><i class="fas fa-chevron-right"></i>Home</a>
+                    <a href="/destino.html"><i class="fas fa-chevron-right"></i>Destino</a>
+                    <a href="/promocao.html"><i class="fas fa-chevron-right"></i>Promoção</a>
+                    <a href="/contato.html"><i class="fas fa-chevron-right"></i>Contato</a>
+                </div>
+
+                <div class="box">
+                    <h4>Contate-nos</h4>
+                    <a href="#"><i class="fas fa-phone"></i>(21) 91111-2222</a>
+                    <a href="#"><i class="fas fa-phone"></i>(21) 1111-2222</a>
+                    <a href="#"><i class="fas fa-envelope"></i>travelairline@email.com</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i>Praça Sen. Salgado Filho, s/n - Centro, Rio de Janeiro - RJ, 20021-340</a>
+                </div>
+            </div>
+            <div class="copyright">&copy; 2022 Copyright - Todos os direitos reservados. TravelAirlines Tecnologia</div>
+        </section>
+    </footer>
+    <script src = "./js/script.js"></script>
+</body>
